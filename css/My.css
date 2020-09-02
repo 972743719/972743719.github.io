@@ -1,9 +1,12 @@
 #web_bg {
     /* 背景图像的地址（url括号里）  */
-    background: url(https://cdn.jsdelivr.net/gh/972743719/banner/banner24.jpg);
+    background: url(https://cdn.jsdelivr.net/gh/972743719/banner/banner23.jpg);
     /* 背景图像不重复 */
     background-repeat: no-repeat;
     background-size: 100% 100%;
+}
+.tab .active {
+    background: rgba(255,255,255,.8);
 }
 /*向下滚动*/
 #page-header #scroll_down {
