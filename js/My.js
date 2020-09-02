@@ -1,4 +1,7 @@
-// 去掉banner图
+var full_page = document.getElementsByClassName("full_page");
+if (full_page.length !== 0) {
+    full_page[0].style.background = "transparent";
+}
 var page_header = document.getElementById("page-header");
 page_header.style.removeProperty("background-image");
 /* 手机客户端导航栏默认隐藏 */
@@ -59,7 +62,7 @@ function qipao() {
             o = l.offsetWidth, a = l.offsetHeight,
                 function() {
                     var t = document.createElement("canvas");
-                    t.id = "canvas", t.style.top = 0, t.style.zIndex = -1, t.style.position = "absolute", l.appendChild(t), t.parentElement.style.overflow = "hidden"
+                    t.id = "canvas", t.style.top = 0, t.style.zIndex = 1, t.style.position = "absolute", l.appendChild(t), t.parentElement.style.overflow = "hidden"
                 }(), (n = document.getElementById("canvas")).width = o, n.height = a, r = n.getContext("2d");
             for (var t = 0; t < o * d.density; t++) {
                 var e = new f;
