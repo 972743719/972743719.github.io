@@ -72,14 +72,6 @@ a {
 /*.footer_custom_text {
     color: #00c4b6;
 }*/
-/*移动端优化：去除归档、标签、最新文章、公告、、只保留网站统计*/
-
-@media screen and (max-width: 800px) {
-    #aside_content div:not(:last-child) {
-        display: none;
-        font-size: 13px;
-    }
-}
 /* 打字效果渐变 */
 
 @-webkit-keyframes Gradient {
@@ -263,4 +255,3 @@ p {
 #page-header.post-bg {
     height: 15rem;
 }
-
