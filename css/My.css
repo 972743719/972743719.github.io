@@ -5,35 +5,42 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+
 .tab .active {
-    background: rgba(255,255,255,.8);
+    background: rgba(255, 255, 255, .8);
 }
+
 /*向下滚动*/
 #page-header #scroll_down {
     z-index: 2;
 }
+
 /* 文章页背景 */
-.layout_post>#post {
+.layout_post > #post {
     /* 以下代表白色透明度为0.3 */
-    background: rgba(255,255,255,.8);
+    background: rgba(255, 255, 255, .8);
 }
+
 /* 所有背景（包括首页卡片、文章页、页面页等） */
-#aside_content .card-widget, #recent-posts>.recent-post-item, .layout_page>div:first-child:not(.recent-posts), .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post{
+#aside_content .card-widget, #recent-posts > .recent-post-item, .layout_page > div:first-child:not(.recent-posts), .layout_post > #page, .layout_post > #post, .read-mode .layout_post > #post {
     /* 以下代表白色透明度为0.3 */
-    background: rgba(255,255,255,.8);
+    background: rgba(255, 255, 255, .8);
 }
 
 /* 页脚透明 */
 #footer {
-    background-color: rgba(255,255,255,0);
+    background-color: rgba(255, 255, 255, 0);
 }
+
 #customFooterDiv {
     color: #0d0d0d;
 }
+
 /* 博主昵称颜色 */
 .author-info__name {
     color: #ff7242;
 }
+
 /* a标签默认颜色 */
 
 #article-container a {
@@ -47,26 +54,32 @@
     color: #e58a8a;
     text-decoration: none;
 }
+
 /*a标签颜色*/
 a {
     color: #00c4b6;
 }
+
 /* 首页中间打字效果上方 */
 #page-header #site_title {
     color: #ffffff;
     font-size: 2.8rem;
 }
+
 #page-header #site_subtitle {
     font-size: 1.3rem;
 }
+
 /* 顶部导航栏 */
 #nav a {
     color: #f9f2f4;
 }
+
 /*页脚a标签字体颜色*/
 #footer-wrap a {
     color: #f549d8;
 }
+
 /*页脚自定义字段字体颜色*/
 /* 也就是配置文件里的footer_custom_text */
 /*.footer_custom_text {
@@ -170,11 +183,13 @@ body {
     cursor: url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/normal.cur),
     default;
 }
+
 a,
 img {
     cursor: url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/ayuda.cur),
     default;
 }
+
 p {
     cursor: url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/texto.cur),
     default;
@@ -240,6 +255,7 @@ p {
     width: 100%;
     text-align: center;
 }
+
 #page-header.post-bg:before {
     position: absolute;
     top: 0;
@@ -247,11 +263,18 @@ p {
     display: block;
     width: 100%;
     height: 100%;
-    background-color: rgba(255,255,255,0);
+    background-color: rgba(255, 255, 255, 0);
 }
+
 #page-header {
     background-color: transparent;
 }
+
 #page-header.post-bg {
     height: 15rem;
+}
+
+/*头像hover*/
+.card-info-avatar:hover {
+    background: url(https://ae01.alicdn.com/kf/H3342af90d24b4d62b9bbfec9688ccc25M.gif)
 }
